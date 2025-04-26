@@ -1,7 +1,7 @@
 [project]
 name = "keywordimageblocker"
 description = "A ComfyUI node that will block images that flag custom set key words"
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"}
 
 [project.urls]
@@ -9,6 +9,6 @@ Repository = "https://github.com/JustLateNightAI/KeywordImageBlocker"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = "latenightai"
+PublisherId = "lofi"
 DisplayName = "Key Word Image Blocker"
 Icon = ""
