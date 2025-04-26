@@ -9,6 +9,6 @@ Repository = "https://github.com/JustLateNightAI/KeywordImageBlocker"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = "lofi"
+PublisherId = "latenightai"
 DisplayName = "Key Word Image Blocker"
 Icon = ""
