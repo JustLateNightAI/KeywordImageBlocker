@@ -10,5 +10,5 @@ Repository = "https://github.com/JustLateNightAI/KeywordImageBlocker"
 
 [tool.comfy]
 PublisherId = "lofi"
-DisplayName = "Late Night AI"
+DisplayName = "Key Word Image Blocker"
 Icon = ""
