@@ -1,7 +1,7 @@
 [project]
 name = "keywordimageblocker"
 description = "A ComfyUI node that will block images that flag custom set key words"
-version = "1.0.2"
+version = "1.0.0"
 license = {file = "LICENSE"}
 
 [project.urls]
