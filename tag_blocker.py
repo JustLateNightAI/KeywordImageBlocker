@@ -9,8 +9,8 @@ class TagKeywordBlocker:
         return {
             "required": {
                 "image":    ("IMAGE",),
-                "tags":     ("STRING", {"multiline": True, "default": ""}),
-                "keywords": ("STRING", {"multiline": True, "default": "penis,futanari,erection"})
+                "tags":     ("STRING", {"multiline": True, "default": "Plug a image tagger like WD14 into this box"}),
+                "keywords": ("STRING", {"multiline": True, "default": "List the tags you want to filter for and block in this text box, ie nude, penis, naked, ect"})
             }
         }
 
