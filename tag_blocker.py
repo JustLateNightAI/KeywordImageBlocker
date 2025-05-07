@@ -64,7 +64,29 @@ class TagKeywordBlocker:
         # keyword check
         raw = str(tags).lower()
         kws = [k.strip().lower() for k in keywords.split(",") if k.strip()]
-        hit = any(kw in raw for kw in kws)
+        hit = False
+
+        for keyword in kws:
+            groups = keyword.split("+")
+            all_groups_met = True
+            
+            for group in groups:
+                alternatives = group.split("/")
+                found_in_group = False
+                
+                for alt in alternatives:
+                    if alt in raw:
+                        found_in_group = True
+                        break
+                        
+                if not found_in_group:
+                    all_groups_met = False
+                    break
+                    
+            if all_groups_met:
+                hit = True
+                break
+
         print(f"[DEBUG filter_image] tags='{raw}', keywords={kws}, hit={hit}")
 
         # pick largest tensor frame to size warning
