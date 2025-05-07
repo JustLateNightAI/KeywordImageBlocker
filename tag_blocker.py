@@ -10,7 +10,7 @@ class TagKeywordBlocker:
             "required": {
                 "image":    ("IMAGE",),
                 "tags":     ("STRING", {"multiline": True, "default": "Plug a image tagger like WD14 into this box"}),
-                "keywords": ("STRING", {"multiline": True, "default": "List the tags you want to filter for and block in this text box, ie nude, penis, naked, ect"})
+                "keywords": ("STRING", {"multiline": True, "default": "List the tags you want to filter for and block in this text box, ie nude, penis, naked, ect. you can use and or logic like the following example. "boobs/boob+nipple/nipples" / is the or option and + is the and option. using the and function will only trigger if both words are found IE: nipple+boob, will only tirgger if both are found"})
             }
         }
 
